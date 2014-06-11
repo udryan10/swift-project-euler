@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A497A321947E545001A663A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A497A311947E545001A663A /* main.swift */; };
+		5A497A3A1947E7B3001A663A /* 01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A497A391947E7B3001A663A /* 01.swift */; };
+		5A497A3C1947ED84001A663A /* 02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A497A3B1947ED84001A663A /* 02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		5A497A2E1947E545001A663A /* Project Euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project Euler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A497A311947E545001A663A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5A497A381947E79A001A663A /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
+		5A497A391947E7B3001A663A /* 01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 01.swift; sourceTree = "<group>"; };
+		5A497A3B1947ED84001A663A /* 02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				5A497A311947E545001A663A /* main.swift */,
+				5A497A381947E79A001A663A /* test.playground */,
+				5A497A391947E7B3001A663A /* 01.swift */,
+				5A497A3B1947ED84001A663A /* 02.swift */,
 			);
 			path = "Project Euler";
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A497A3A1947E7B3001A663A /* 01.swift in Sources */,
 				5A497A321947E545001A663A /* main.swift in Sources */,
+				5A497A3C1947ED84001A663A /* 02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
