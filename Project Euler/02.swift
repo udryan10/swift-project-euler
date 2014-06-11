@@ -11,18 +11,19 @@ class Question02 {
     var sum = 0
     
     func solve() -> Int {
-        var lastValue = 1
-        var currentValue = 2
+        var n = 0
+        var n_1 = 0
+        var n_2 = 1
         
-        while currentValue < 4000000 {
+        while n < 4000000 {
             
-            if currentValue % 2 == 0 {
-                sum += currentValue
+            if n % 2 == 0 {
+                sum += n
             }
             
-            var tempValue = lastValue
-            lastValue = currentValue
-            currentValue = lastValue + tempValue
+            n = n_2 + n_1
+            n_1 = n_2
+            n_2 = n
             
         }
         return sum
